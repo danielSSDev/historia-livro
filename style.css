@@ -18,7 +18,16 @@ body{
     left: 50%;
     right: 50%;
     height: 100%;
-    width: 515px;
+    /* width: 515px; */
+}
+
+.card-inicio-2{
+    text-align: center;
+    margin-top: -19px;
+    left: 50%;
+    right: 50%;
+    height: 100%;
+    /* width: 515px; */
 }
 
 /* .img-inicio{
@@ -32,4 +41,24 @@ body{
 .btn-comecar{
     background-color: red;
 
+}
+
+#pagina-2{
+    /* position: absolute;
+    float: bottom;
+    right: 31%;
+    bottom: 15%; */
+    z-index: 100;
+    font-size: 25px;
+    color: black;
+    font-family: cursive;
+}
+
+.link-page{
+    height: -11px;
+    position: relative;
+    text-align: center;
+    bottom: 10px;
+    bottom: -757px;
+    z-index: 100;
 }
