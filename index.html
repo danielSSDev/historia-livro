@@ -15,34 +15,32 @@
 <body>
     <div class="row inicio">
         <div class="col s12">
-            <div class="card" style="background-color: #c3c3c3;width: 100%;">
+            <div class="" style="background-color: #c3c3c3;width: 100%;">
+
                 <div class="inicio" id="pag-1-2">
+                    <!-- <div>
+                        <a href="#">
+                            <i class="large material-icons">arrow_back</i>
+                        </a>
+                    </div> -->
+                   
                     <div class="s6 card-inicio">
-                        <div class="link-page">
-                            <p>
-                                <a id="pagina-2" href="#"></a>
-                            </p>
-                            <p>
-                                <a id="pagina-3" href="#">2 - Voltar página</a>
-                            </p>
-                        </div>
                         <div class="img-inicio">
                             <img src="img/img-1.jpg">
                         </div>
+
                     </div>
 
-                    <div class="s6 card-inicio-2">
-                        <div class="link-page">
-                            <p>
-                                <button id="pagina-2" onclick="avancar('pag-3-4')" href="#">1 - Ir proxima página</button>
-                            </p>
-                            <p>
-                                <a id="pagina-3" href="#"></a>
-                            </p>
-                        </div>
+                    <div class="s6 card-inicio">
                         <div class="img-inicio">
                             <img src="img/img-2.jpg">
                         </div>
+                    </div>
+
+                    <div onclick="avancar('pag-1-2' ,'pag-3-4')">
+                        <a href="#">
+                            <i class="large material-icons">arrow_forward</i>
+                        </a>
                     </div>
                 </div>
 
@@ -50,32 +48,28 @@
 
 
                 <div class="inicio" id="pag-3-4" style="display: none;">
+                    <div onclick="voltar('pag-3-4', 'pag-1-2')">
+                        <a href="#">
+                            <i class="large material-icons">arrow_back</i>
+                        </a>
+                    </div>
+                   
                     <div class="s6 card-inicio">
-                        <div class="link-page">
-                            <p>
-                                <a id="pagina-3" href="#"></a>
-                            </p>
-                            <p>
-                                <a id="pagina-3" href="#"></a>
-                            </p>
-                        </div>
                         <div class="img-inicio">
-                            <img src="img/img-1.jpg">
+                            <img src="img/img-3.jpg">
                         </div>
                     </div>
 
-                    <div class="s6 card-inicio-2">
-                        <div class="link-page">
-                            <p>
-                                <a id="pagina-4" href="components/modelo_1/index.html">1 - Ir proxima página</a>
-                            </p>
-                            <p>
-                                <a id="pagina-4" href="#" style="display:none">1 - Voltar página</a>
-                            </p>
-                        </div>
+                    <div class="s6 card-inicio">
                         <div class="img-inicio">
-                            <img src="img/img-2.jpg">
+                            <img src="img/img-4.jpg">
                         </div>
+                    </div>
+
+                    <div onclick="avancar('pag-3-4' ,'pag-5-6')">
+                        <a href="#">
+                            <i class="large material-icons">arrow_forward</i>
+                        </a>
                     </div>
                 </div>
 
@@ -83,39 +77,45 @@
                  <!-- --------------------------PAGINA 5 E 6 -------------------------------------------------->
 
                 <div class="inicio" id="pag-5-6" style="display: none;">
+                    <div onclick="voltar('pag-5-6', 'pag-3-4')">
+                        <a href="#">
+                            <i class="large material-icons">arrow_back</i>
+                        </a>
+                    </div>
+                   
                     <div class="s6 card-inicio">
-                        <div class="link-page">
-                            <p>
-                                <a id="pagina-3" href="#"></a>
-                            </p>
-                            <p>
-                                <a id="pagina-3" href="#"></a>
-                            </p>
-                        </div>
                         <div class="img-inicio">
                             <img src="img/img-1.jpg">
                         </div>
                     </div>
 
-                    <div class="s6 card-inicio-2">
-                        <div class="link-page">
-                            <p>
-                                <a id="pagina-3" href="#">1 - Ir proxima página</a>
-                            </p>
-                            <p>
-                                <a id="pagina-3" href="#" style="display:none">1 - Ir proxima página</a>
-                            </p>
-                        </div>
+                    <div class="s6 card-inicio">
                         <div class="img-inicio">
                             <img src="img/img-2.jpg">
                         </div>
                     </div>
-                </div>
 
-                
+                    <div>
+                        <a href="#">
+                            <i class="large material-icons">arrow_forward</i>
+                        </a>
+                    </div>
+                </div>
+   
             </div>
         </div>
     </div>
+
+
+
+    <!-- <div class="link-page">
+        <p>
+            <button id="pagina-2" onclick="avancar('pag-3-4')" href="#">1 - Ir proxima página</button>
+        </p>
+        <p>
+            <a id="pagina-3" href="#"></a>
+        </p>
+    </div> -->
 
 
 

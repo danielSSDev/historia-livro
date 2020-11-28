@@ -1,13 +1,14 @@
-function avancar(id_pagina){
-    console.log('ESTA CHEGANDO NA FUNCAO AQUI EM ')
+function avancar(id_page_none,id_pag_avancar){
+    document.getElementById(id_page_none).style.display = 'none'
 
-
-
-    document.getElementById(id_pagina).style.display = 'block'
-
+    document.getElementById(id_pag_avancar).style.display = 'block'
+    document.getElementById(id_pag_avancar).style.display = 'flex'
 
 }
 
-function voltar(){
+function voltar(id_page_none,id_pag_voltar){
+    document.getElementById(id_page_none).style.display = 'none'
 
+    document.getElementById(id_pag_voltar).style.display = 'block'
+    document.getElementById(id_pag_voltar).style.display = 'flex'
 }
